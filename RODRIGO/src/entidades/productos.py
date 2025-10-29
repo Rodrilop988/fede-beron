@@ -1,13 +1,13 @@
 from abc import ABC, abstractmethod
 
-# Clase abstracta (ABSTRACCIÓN)
+
 class Producto(ABC):
     def __init__(self, nombre: str, precio: float):
-        # Encapsulamiento: los atributos son "privados"
+        
         self._nombre = nombre
         self._precio = precio
 
-    # Métodos getter y setter (ENCAPSULAMIENTO)
+    
     def get_nombre(self):
         return self._nombre
 
